@@ -75,7 +75,7 @@ const routes: Routes = [
 ![alt tag](https://github.com/virgil-av/Angular-CLI-lazy-load/blob/master/lazy-load1.PNG)
 
 
-**Nested Lazy Loading**
+**Nested Lazy Loading if you call the route /test1/test1a**
 
 ![alt tag](https://github.com/virgil-av/Angular-CLI-lazy-load/blob/master/lazy-load-nested.PNG)
 
