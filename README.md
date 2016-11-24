@@ -1,5 +1,7 @@
 # Angular CLI ( Angular 2 ) Lazy Loading example.
 
+**This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.21.**
+
 # Note
 - While configuring the lazy loaded paths and modules stop `ng serve` and start it again after.
 - If you generate the components with the cli command `ng g c name`, do NOT forget to remove the declaration from app.module.ts, this file should not have any of the lazy loaded components added to the declarations they will be declared in their own module.ts
@@ -79,7 +81,6 @@ const routes: Routes = [
 
 
 
-**This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.21.**
 
 ## Build
 Run `ng build` to build the project. The build artifacts will be stored in the dist/ directory. Use the -prod flag for a production build.
