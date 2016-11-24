@@ -2,7 +2,7 @@
 
 # Note
 - While configuring the lazy loaded paths and modules stop `ng serve` and start it again after.
-- If you generate the components with the cli command `ng g c component name`, do NOT forget to remove the declaration from app.module.ts, this file should not have any of the lazy loaded components added to the declarations they will be declared in their own module.ts
+- If you generate the components with the cli command `ng g c name`, do NOT forget to remove the declaration from app.module.ts, this file should not have any of the lazy loaded components added to the declarations they will be declared in their own module.ts
 
 # Project setup:
 
@@ -70,12 +70,12 @@ const routes: Routes = [
 
 **Primary Lazy Loading:**
 
-![alt tag](https://github.com/virgil-av/Angular-CLI-lazy-load/blob/master/structure.PNG)
+![alt tag](https://github.com/virgil-av/Angular-CLI-lazy-load/blob/master/lazy-load1.PNG)
 
 
 **Nested Lazy Loading**
 
-![alt tag](https://github.com/virgil-av/Angular-CLI-lazy-load/blob/master/structure.PNG)
+![alt tag](https://github.com/virgil-av/Angular-CLI-lazy-load/blob/master/lazy-load-nested.PNG)
 
 
 
