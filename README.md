@@ -79,6 +79,7 @@ const routes: Routes = [
 
 ![alt tag](https://github.com/virgil-av/Angular-CLI-lazy-load/blob/master/lazy-load-nested.PNG)
 
+Adapted to angular cli from this article [Angular 2 Lazy load with webpack](https://medium.com/@daviddentoom/angular-2-lazy-loading-with-webpack-d25fe71c29c1#.15vcsbeqw)
 
 
 
