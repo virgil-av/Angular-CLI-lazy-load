@@ -2,6 +2,10 @@
 
 **This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.21.**
 
+# Demo
+
+https://virgil-av.github.io/Angular-CLI-lazy-load
+
 # Note
 - While configuring the lazy loaded paths and modules stop `ng serve` and start it again after.
 - If you generate the components with the cli command `ng g c name`, do NOT forget to remove the declaration from app.module.ts, this file should not have any of the lazy loaded components added to the declarations they will be declared in their own module.ts
